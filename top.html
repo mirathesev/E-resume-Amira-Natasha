@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NAVIGATION BAR</title>
+<style>
+    /* Styling for the links */
+	a:link {
+		color:#B0C4DE; /* Light steel blue link color */
+		text-decoration: none;
+		text-align:right
+	}
+	a:visited {
+		color:#B0C4DE;
+	}
+    
+    /* Styling for the Download Resume button */
+	.button {
+		border-radius:30px;
+		background-color:#ffffff; /* White background */
+		border: none;
+		color:#778899; /* Slate gray text color (better contrast) */
+		padding:9px 15px; /* Increased padding for better click area */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin:1px 1px;
+		cursor: pointer;
+        font-weight: bold; /* Added bold for visibility */
+        transition: 0.3s;
+	}
+    
+    .button:hover {
+        background-color: #f0f0f0;
+    }
+    
+    /* Styling for the main header (background, alignment) */
+    body {
+        background-color: #778899; /* Slate gray background */
+        display: flex; /* Use flexbox to align title and links */
+        justify-content: space-between; /* Space out the title and the links */
+        align-items: center; /* Vertically align items */
+        padding: 10px 20px; /* Add internal padding */
+    }
+
+    /* Styling for the new 'MY PORTFOLIO' title */
+    .portfolio-title {
+        color: #ffffff; /* White text for contrast */
+        font-family: Arial, sans-serif; /* Clean, common font */
+        font-size: 1.8em;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    
+    /* Styling for the navigation links container */
+    .nav-links {
+        font-family: Arial, sans-serif;
+        font-size: 1.05em;
+    }
+
+    /* Responsive adjustment for small screens (optional) */
+    @media (max-width: 768px) {
+        body {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+        }
+        .nav-links {
+            margin-top: 10px;
+            text-align: left;
+            width: 100%;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <h1 class="portfolio-title">MY PORTFOLIO</h1>
+
+    <div class="nav-links">
+        <a href="home.html" target="middle">Home</a>&nbsp;&nbsp;
+        <a href="aboutme.html" target="middle">About Me</a>&nbsp;&nbsp;
+        <a href="education.html" target="middle">Education</a>&nbsp;&nbsp;
+        <a href="skills.html" target="middle">Skills</a>&nbsp;&nbsp;
+        <a href="experience.html" target="middle">Experience</a>&nbsp;&nbsp;
+        <a href="contact.html" target="middle">Contact</a>&nbsp;&nbsp;
+        <a href="resume.pdf" class="button" target="_blank">Download Resume</a>
+    </div>
+</body>
+</html>

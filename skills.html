@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skills & Languages</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #f4f6f8;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            color: #778899;
+            margin-bottom: 15px;
+        }
+
+        
+        .skills-language-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+       
+        .skills-box {
+            flex: 1;
+            background-color: #e0e5eb;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            padding: 10px 18px;
+            border-radius: 25px;
+            border: 2px solid #778899;
+            color: #778899;
+            font-size: 14px;
+            background-color: #B0C4DE;
+        }
+
+        
+        .languages-box {
+            flex: 1;
+            background-color: #e0e5eb;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .language {
+            margin-bottom: 20px;
+        }
+
+        .language span {
+            font-weight: bold;
+            color: #333333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .progress {
+            background-color: #cfd8e3;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 12px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #778899;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="skills-language-container">
+
+    
+    <div class="skills-box">
+        <h2>Skills</h2>
+
+        <div class="skill-tags">
+            <div class="skill">Microsoft Word</div>
+            <div class="skill">Microsoft Excel</div>
+            <div class="skill">Microsoft PowerPoint</div>
+            <div class="skill">Canva Design</div>
+            <div class="skill">Social Media Management</div>
+            <div class="skill">Google Workspace</div>
+            <div class="skill">Photo Editing</div>
+        </div>
+    </div>
+
+    
+    <div class="languages-box">
+        <h2>Languages</h2>
+
+        <div class="language">
+            <span>Malay (100%)</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:100%"></div>
+            </div>
+        </div>
+
+        <div class="language">
+            <span>English (75%)</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:75%"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
